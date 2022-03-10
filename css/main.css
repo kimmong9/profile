@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inner {
+  width: 1032px;
+  margin: 0 auto;
+  padding: 0 85px;
+}
+
+/* header */
+.header {
+  padding: 27px 0;
+}
+
+.header .inner {
+  position: relative;
+  padding: initial;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  gap: 33px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* .profile */
+.profile .inner {
+  margin-top: 140px;
+  display: flex;
+  background-color: #fff0f0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.profile p {
+  font-size: 1.4rem;
+  margin: 40px 0 40px;
+}
+
+.btn a {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background-color: #ff6464;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+
+.profile .photo img {
+  margin-top: 15px;
+  width: 300px;
+}
+
+/* section */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 78px 0 22px;
+}
+
+.s_box .s_inner {
+  display: flex;
+  align-items: center;
+}
+
+.s_photo {
+  position: relative;
+}
+
+.s_photo img {
+  width: 270px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.dimm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.s_photo:hover .dimm {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.s_photo p {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.s_photo:hover p {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.s_text {
+  padding: 0 18px 0;
+}
+
+.s_text h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.s_inner span {
+  width: 70px;
+  height: 26px;
+  border-radius: 16px;
+  background-color: #142850;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+
+.miniinner {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+  padding: 15px 0 15px;
+}
+
+.miniinner p {
+  color: #8695a4;
+}
+
+.s_inner p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.s_box .line {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #e0e0e0;
+  margin: 15px 0;
+}

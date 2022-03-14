@@ -202,3 +202,10 @@ h3 {
   opacity: 0.5;
   padding-top: 26px;
 }
+
+@media (min-width: 375px) {
+  body {
+    width: 100%;
+    padding: initial;
+  }
+}

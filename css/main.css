@@ -203,15 +203,5 @@ h3 {
   padding-top: 26px;
 }
 
-@media (max-width: 375px) {
-  body {
-    width: 100%;
-    padding: initial;
-  }
-
-  .header {
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
-}
+/*----- 반응형 -----*/
+/* @media (max-width: 375px) {}*/

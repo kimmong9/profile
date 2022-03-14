@@ -75,7 +75,7 @@ h1 {
 }
 
 .profile .photo img {
-  margin-top: 15px;
+  margin: 20px;
   width: 300px;
 }
 
@@ -176,4 +176,29 @@ h3 {
   height: 1px;
   border: 1px solid #e0e0e0;
   margin: 15px 0;
+}
+
+/* footer */
+.footer .inner {
+  text-align: center;
+}
+
+.Email a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.Email i {
+  font-size: 20px;
+  color: #ff6464;
+}
+
+.copyright {
+  opacity: 0.5;
+  padding-top: 26px;
 }

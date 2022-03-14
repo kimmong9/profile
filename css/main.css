@@ -203,9 +203,15 @@ h3 {
   padding-top: 26px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   body {
     width: 100%;
     padding: initial;
+  }
+
+  .header {
+    display: block;
+    align-items: center;
+    justify-content: center;
   }
 }

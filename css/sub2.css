@@ -200,6 +200,8 @@ h2 {
   opacity: 0.5;
 }
 
+/* -----------------------반응형------------------------------ */
+
 @media (max-width: 768px) {
   .header {
     position: relative;

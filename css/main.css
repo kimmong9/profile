@@ -302,6 +302,7 @@ h3 {
     z-index: 2;
     color: #fff;
   }
+
   /* .profile */
   .profile .inner {
     flex-direction: column-reverse;
@@ -346,22 +347,14 @@ h3 {
 
   h2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin: 70px 0 22px;
+    margin: 40px 0 22px;
   }
 
   .s_box .s_inner {
     flex-direction: column;
     text-align: center;
-  }
-
-  .s_photo img {
-    text-align: center;
-    display: block;
-    width: 270px;
-    height: 200px;
-    border-radius: 6px;
   }
 
   .s_text {
@@ -370,19 +363,14 @@ h3 {
   }
 
   h3 {
+    margin-top: 20px;
     font-size: 1rem;
     font-weight: 700;
   }
 
   .s_text span {
-    width: 70px;
-    height: 26px;
-    border-radius: 16px;
-    background-color: #142850;
-    color: #fff;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 26px;
     text-align: center;
   }
 
@@ -409,21 +397,8 @@ h3 {
     font-size: 1rem;
     font-weight: 500;
   }
+
   /* footer */
-  .footer .inner {
-    text-align: center;
-  }
-
-  .Email a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin-top: 50px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
   .Email i {
     font-size: 20px;
     color: #ff6464;
